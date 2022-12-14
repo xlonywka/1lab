@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+:root {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
+
+/** {
+    outline: 1px solid red;
+    }*/
+h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 3.9rem;
+}
+h2 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 3.1rem;
+}
+.block-text {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.block-1-button {
+  width: 14.8rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  height: 4.4rem;
+  border-radius: 82px;
+  border: none;
+  background: #393939;
+  color: white;
+  line-height: 1.8rem;
+}
+.block-button {
+  width: 34.9rem;
+  line-height: 1.8rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  height: 44px;
+  border-radius: 82px;
+  border: none;
+  background: #393939;
+  color: white;
+}
+
+.die {
+  background: none;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  font-size: 1.4rem;
+  padding: 4px 8px;
+  gap: 8px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1.7rem;
+}
+.slider-class {
+  font-weight: 600;
+  font-size: 12px;
+  color: #939393;
+  line-height: 1.5rem;
+}
+.slider-text {
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+  line-height: 1.7rem;
+}
+.slider .die {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.die.news {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.block-table-header {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+.s-table-text {
+  font-size: 1.4rem;
+  color: #393939;
+}
+.text-link {
+  color: #393939;
+  font-weight: 600;
+  text-decoration-line: underline;
+}
+.block-art-header {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+tr .block-button {
+  width: 31.3rem;
+}
+footer {
+  font-size: 1.5rem;
+  color: white;
+  background: #181818;
+}
+footer a {
+  color: white;
+  text-decoration-line: none;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  padding: 0; /* Убираем поля */
+  margin-left: 0px; /* Отступ слева */
+}
+.menu {
+  font-size: 14px;
+}
+.contact-us {
+  font-weight: 600;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+}
+.readmore-button {
+  border: 1px solid #939393;
+  border-radius: 82px;
+  width: 31.3rem;
+  height: 4.6rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #393939;
+  line-height: 1.8rem;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  text-decoration-line: none;
+  top: 38rem;
+  display: flex;
+}
+img {
+  left: 16px;
+  top: 16px;
+}
+hr {
+  opacity: 0.1;
+  border: 1px solid #ffffff;
+}
+.copyright {
+  opacity: 0.3;
+  line-height: 1.8rem;
+}
+.block-table {
+  width: 34.5rem;
+}
+.block-table-text {
+  width: 34.5rem;
+  line-height: 2.366rem;
+  font-size: 1.4rem;
+}
+footer img {
+  top: 3rem;
+}
+.date-text {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
