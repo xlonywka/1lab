@@ -1,190 +1,171 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>Verseser</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="header">
-        <a href="#"><img src="images/image_4.svg" alt="Verseser"></a>
-        <a href="#"><img src="images/Плашка.svg" alt="Cart"></a>
-        <button><img src="images/ci_menu-alt-02.svg" alt="Menu"></button>
+    <header>
+      <a href="#"
+        ><img src="images/image_4.svg" alt="Verseser" class="logo"
+      /></a>
+      <button class="menutop">
+        <img src="images/ci_menu-alt-02.svg" alt="Menu" />
+      </button>
+      <a href="#"><img src="images/Плашка.svg" alt="Cart" class="cart" /></a>
     </header>
     <main>
-        <section class="block-1">
-            <h1>Digital Fashion Studio</h1>
-            <p class="block-text">We create digital clothing and connect it with real people</p>
-            <button class="block-1-button">Shop now</button>
-            <section class="img-overlay">
-                <img src="images/02_dress_verseser_1_1.png" alt="Image">
-                <img src="images/02_dress_verseser_2_1b.png" alt="Image">
-                <img src="images/02_dress_verseser_3_1b.png" alt="Image">
-            </section>
+      <section class="block-1">
+        <h1>Digital Fashion Studio</h1>
+        <p class="block-text">
+          We create digital clothing and connect it with real people
+        </p>
+        <button class="block-1-button">Shop now</button>
+        <div class="img-overlay">
+          <img id="dr1" src="images/02_dress_verseser_1_1.png" alt="Image" />
+          <img id="dr2" src="images/02_dress_verseser_2_1.png" alt="Image" />
+          <img id="dr3" src="images/02_dress_verseser_3_1.png" alt="Image" />
+        </div>
+      </section>
+      <section class="block">
+        <section class="block-header">
+          <button class="die">best seller</button>
+          <span class="slider-selector">
+            <input type="radio" id="1" name="radio" value="1" checked />
+            <input type="radio" id="2" name="radio" value="2" />
+            <input type="radio" id="3" name="radio" value="3" />
+            <input type="radio" id="4" name="radio" value="4" />
+          </span>
         </section>
-        <section class="block">
-            <table class="block-header">
-                <tbody>
-                    <tr>
-                        <td><button class="die">best seller</button></td>
-                        <td>
-                            <input type="radio" id="1" name="radio" value="1" checked>
-                            <input type="radio" id="2" name="radio" value="2">
-                            <input type="radio" id="3" name="radio" value="3">
-                            <input type="radio" id="4" name="radio" value="4">
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <section class="slider">
-                <section class="slider-element">
-                    <img src="images/Rectangle_5.png" alt="Image">
-                    <p class="slider-class">Balmlabs</p>
-                    <p class="slider-text">Cropped Puffy Jacket</p>
-                    <button class="die">$40.00 USD</button>
-                </section>
-            </section>
-            <button class="block-button">View all</button>
+        <section class="slider">
+          <div class="slider-element">
+            <ul>
+              <li><img src="images/Rectangle_5.png" alt="Image" /></li>
+              <li class="slider-class">Balmlabs</li>
+              <li class="slider-text">Cropped Puffy Jacket</li>
+              <li><button class="die">$40.00 USD</button></li>
+            </ul>
+          </div>
         </section>
-        <section class="block">
-            <h2>How to wear a digital garment </h2>
-            <table class="block-table">
-                <tbody>
-                    <tr>
-                        <td class="die">Step 1</td>
-                    </tr>
-                    <tr>
-                        <td class="block-table-header">Choose outfit</td>
-                    </tr>
-                    <tr>
-                        <td class="block-table-text">Got to our <a href="#" class="text-link">store</a> and choose the outfits you like</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td class="die">Step 2</td>
-                    </tr>
-                    <tr>
-                        <td class="block-table-header">Upload photo</td>
-                    </tr>
-                    <tr>
-                        <td class="block-table-text">To get the best results, read the photo  <a href="#" class="text-link">requirements</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td class="die">Step 3</td>
-                    </tr>
-                    <tr>
-                        <td class="block-table-header">Pay</td>
-                    </tr>
-                    <tr>
-                        <td class="block-table-text">Pay with cash or crypto</td>
-                    </tr>
-                </tbody>
-            </table>
-            <button class="block-button">Visit shop</button>
+        <button class="block-button">View all</button>
+      </section>
+      <section class="block">
+        <h2>How to wear a digital garment</h2>
+        <section class="block-table">
+          <section class="step">
+            <span class="die">Step 1</span>
+            <div class="block-table-header">Choose outfit</div>
+            <div class="block-table-text">
+              Got to our <a href="#" class="text-link">store</a> and choose the
+              outfits you like
+            </div>
+          </section>
+          <section class="step">
+            <span class="die">Step 2</span>
+            <div class="block-table-header">Upload photo</div>
+            <div class="block-table-text">
+              To get the best results, read the photo
+              <a href="#" class="text-link">requirements</a>
+            </div>
+          </section>
+          <section class="step">
+            <span class="die">Step 3</span>
+
+            <div class="block-table-header">Pay</div>
+
+            <div class="block-table-text">Pay with cash or crypto</div>
+          </section>
         </section>
-        <section class="block">
-            <table class="block-table">
-                <tbody>
-                    <tr>
-                        <td colspan="2"><img src="images/Rectangle_2.png" alt="Image"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="images/Rectangle_3.png" alt="Image"></td>
-                        <td><img src="images/Rectangle_4.png" alt="Image"></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><img src="images/Rectangle_6.png" alt="Image"></td>
-                    </tr>
-                </tbody>
-            </table>
-            <button class="block-button"><img src="images/inst.svg" alt="Inst:">@Verseser</button>
+        <button class="block-button">Visit shop</button>
+      </section>
+      <section class="block">
+        <ul class="img-table">
+          <li><img src="images/Rectangle_2.png" alt="Image" /></li>
+
+          <li><img src="images/Rectangle_3.png" alt="Image" /></li>
+          <li><img src="images/Rectangle_4.png" alt="Image" /></li>
+
+          <li><img src="images/Rectangle_6.png" alt="Image" /></li>
+        </ul>
+        <button class="block-button">
+          <img src="images/inst.svg" alt="Inst:" />@Verseser
+        </button>
+      </section>
+      <section class="block">
+        <button class="die news">News</button>
+        <section class="block-table">
+          <div class="news-element">
+            <img src="images/img1.png" alt="Image" />
+            <div class="date-text">01.05.2022</div>
+            <div class="block-art-header">
+              Gounders Natalia Modenova and Daria Shapovalova featured in
+              America's Greatest Disruptors list by Newsweek
+            </div>
+            <a href="#" class="readmore-button">Read more</a>
+          </div>
+
+          <div class="news-element">
+            <img src="images/img2.png" alt="Image" />
+            <div class="date-text">01.05.2022</div>
+            <div class="block-art-header">
+              Gounders Natalia Modenova and Daria Shapovalova featured in
+              America's Greatest Disruptors list by Newsweek
+            </div>
+            <a href="#" class="readmore-button">Read more</a>
+          </div>
+
+          <div class="news-element">
+            <img src="images/img3.png" alt="Image" />
+            <div class="date-text">01.05.2022</div>
+            <div class="block-art-header">
+              Gounders Natalia Modenova and Daria Shapovalova featured in
+              America's Greatest Disruptors list by Newsweek
+            </div>
+            <a href="#" class="readmore-button">Read more</a>
+          </div>
         </section>
-        <section class="block">
-            <button class="die news">News</button>
-            <table class="block-table">
-                <tbody>
-                    <tr>
-                        <td><img src="images/img1.png" alt="Image"></td>
-                    </tr>
-                    <tr>
-                        <td class="date-text">01.05.2022</td>
-                    </tr>
-                    <tr>
-                        <td class="block-art-header">Gounders Natalia Modenova and Daria Shapovalova featured in America's Greatest Disruptors list by Newsweek</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#" class="readmore-button">Read more</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td><img src="images/img2.png" alt="Image"></td>
-                    </tr>
-                    <tr>
-                        <td class="date-text">01.05.2022</td>
-                    </tr>
-                    <tr>
-                        <td class="block-art-header">Gounders Natalia Modenova and Daria Shapovalova featured in America's Greatest Disruptors list by Newsweek</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#" class="readmore-button">Read more</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td><img src="images/img3.png" alt="Image"></td>
-                    </tr>
-                    <tr>
-                        <td class="date-text">01.05.2022</td>
-                    </tr>
-                    <tr>
-                        <td class="block-art-header">Gounders Natalia Modenova and Daria Shapovalova featured in America's Greatest Disruptors list by Newsweek</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#" class="readmore-button">Read more</a></td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-        <section class="block">
-            <h2>About Verseser</h2>
-            <p class="block-table-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                <button class="block-button">Shop now</button>
-            </p>
-            
-            <img src="images/img.png" alt="Image">
-        </section>
+      </section>
+      <section class="block">
+        <h2>About Verseser</h2>
+        <p class="block-table-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <button class="block-button">Shop now</button>
+
+        <img id="bottomimg" src="images/img.png" alt="Image" />
+      </section>
     </main>
     <footer>
-        <img src="images/logo_black.png" alt="Verseser">
-        <a href="#"><img src="images/1.svg" alt="Inst"></a>
-        <a href="#"><img src="images/2.svg" alt="TikTok"></a>
-        <a href="#"><img src="images/3.svg" alt="Twitter"></a>
-        <a href="#"><img src="images/4.svg" alt="Pinterest"></a>
-        <a href="#"><img src="images/5.svg" alt="Discord"></a>
-        <nav class="menu">
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">How to wear</a></li>
-              <li><a href="#">Refund Policy</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-          </nav>
-        <hr>
-        <section class="contact-us">
-            Contact us <a href="mailto:info@verseser.com">info@verseser.com</a>
-        </section>
-        <hr>
-        <section class="copyright">
-            Verseser © 2022 All rights reserved
-        </section>
+      <img src="images/logo_black.png" alt="Verseser" />
+      <a href="#"><img src="images/5.svg" alt="Discord" /></a>
+      <a href="#"><img src="images/4.svg" alt="Pinterest" /></a>
+      <a href="#"><img src="images/3.svg" alt="Twitter" /></a>
+      <a href="#"><img src="images/2.svg" alt="TikTok" /></a>
+      <a href="#"><img src="images/1.svg" alt="Inst" /></a>
+      <nav class="menu">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">How to wear</a></li>
+          <li><a href="#">Refund Policy</a></li>
+          <li><a href="#">Terms of service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </nav>
+      <hr />
+      <section class="contact-us">
+        Contact us <a href="mailto:info@verseser.com">info@verseser.com</a>
+      </section>
+      <hr />
+      <section class="copyright">Verseser © 2022 All rights reserved</section>
     </footer>
-
   </body>
 </html>
